@@ -28,4 +28,4 @@ gradlew createSubmission
 
 I have provided Javadocs for the functions.
 
-* https://nathanesau.github.io/cmpt225_templates
+* https://nathanesau-academic.github.io/cmpt225_templates/
