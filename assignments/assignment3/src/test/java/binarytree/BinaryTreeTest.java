@@ -48,7 +48,7 @@ public class BinaryTreeTest {
 
         assert(tree != null);
         assert(tree.getRoot() != null && tree.getRoot().getData() == 3);
-        assert(tree.getRoot().getLeftChild() != null && tree.getRoot().getRightChild().getData() == 2);
+        assert(tree.getRoot().getLeftChild() != null && tree.getRoot().getLeftChild().getData() == 2);
         assert(tree.getRoot().getLeftChild().getRightChild() == null);
     }
 
