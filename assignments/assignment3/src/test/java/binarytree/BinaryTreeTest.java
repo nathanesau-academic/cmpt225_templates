@@ -38,10 +38,10 @@ public class BinaryTreeTest {
     public void testTreeFromTraversal1() {
         // creating the tree
         //       3
-		//      / \
-		//     2   5
-		//    /   / \
-		//   1   4   6   
+	//      / \
+	//     2   5
+	//    /   / \
+	//   1   4   6   
         List<Integer> preorder = Arrays.asList(3,2,1,5,4,6);
         List<Integer> inorder = Arrays.asList(1,2,3,4,5,6);
         BinaryTree<Integer> tree = BinaryTree.createFromPreorderInorder(preorder, inorder);
