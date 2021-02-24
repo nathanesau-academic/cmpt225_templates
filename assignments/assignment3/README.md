@@ -1,24 +1,11 @@
-# hw3-solution
+# Assignment 3 Template
 
 Instructions:
 
 ```bash
-# runs tests
+# run unit tests
 gradlew clean test
 
-# produce zip submission
+# create zip submission
 gradlew createSubmission
-
-# create javadoc
-gradlew javadoc
 ```
-
-Notes:
-
-* create submission uses custom gradle tasks
-
-Time taken:
-
-* Understanding tasks: 30 min
-* Writing code: ?
-* Total: ? hr
