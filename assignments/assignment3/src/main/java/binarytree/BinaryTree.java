@@ -26,11 +26,11 @@ public class BinaryTree<T> {
 	 * 
 	 * gets inOrder and preOrder of a binary tree and recovers the tree
 	 * @param <T> the data type for the tree.
-	 * @param inOrder in-order traversal for the tree.
 	 * @param preOrder pre-order traversal for the tree.
+	 * @param inOrder in-order traversal for the tree.
 	 * @return the binary tree corresponding to the in-order and pre-order traversal.
 	 */
-	public static <T> BinaryTree<T> createFromPreorderInorder(List<T> inOrder, List<T> preOrder) {
+	public static <T> BinaryTree<T> createFromPreorderInorder(List<T> preOrder, List<T> inOrder) {
 		// TODO implement me
 		return null;
 	}
