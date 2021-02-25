@@ -11,10 +11,10 @@ public class BinaryTreeTest {
     BinaryTree<Integer> createTree() {
         // creating the tree
         //       5
-		//      / \
-		//     2   6
-		//    / \   \
-		//   1   4   8
+	//      / \	
+	//     2   6
+	//    / \   \
+	//   1   4   8
         BTNode<Integer> node8 = new BTNode<Integer>(8);
         BTNode<Integer> node6 = new BTNode<Integer>(6, null, node8, null);
 		BTNode<Integer> node1 = new BTNode<Integer>(1);
